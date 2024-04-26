@@ -1,14 +1,5 @@
----
-title: OpenVoice
-emoji: 🤗
-colorFrom: blue
-colorTo: red
-sdk: gradio
-sdk_version: 3.48.0
-app_file: app.py
-pinned: false
-models:
-  - myshell-ai/OpenVoice
----
+# Openvoice 2 Web UI
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+A fork of https://huggingface.co/spaces/myshell-ai/OpenVoice to support Openvoice2, using [MeloTTS](https://github.com/myshell-ai/MeloTTS)
+
+
