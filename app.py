@@ -163,7 +163,6 @@ with gr.Blocks(analytics_enabled=False) as demo:
         with gr.Column():
             input_text_gr = gr.Textbox(
                 label="Text Prompt",
-                info="One or two sentences at a time is better. Up to 200 text characters.",
                 value="He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce.",
             )
             #style_gr = gr.Dropdown(
